@@ -1,2 +1,2 @@
 # Javascript
-I am showcasing my grasp of javascript concepts through miniprojects
+I am showcasing my grasp on javascript concepts through miniprojects
