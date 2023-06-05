@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<header>
+    <h1>form validation</h1>
+</header>
+<body>
+    <!--"myForm" and the rest "" are attributes.
+       action="/action_page.php" 
+        The action's attribute specifies where the form data will be sent upon submission,in this case "/action_page.php"
+       onsubmit="return validateForm()"
+        The onsubmit attribute defines JS function that will be executed when the form is submitted.
+        "validateForm()" - return handles the form behavior before submission
+        when a form is submitted the onsubmit event is triggered.If the validateForm() function returns 'false'
+        the form submission is prevented and the action specified on attribute is not performed
+        if function returns true the action attribute is executed -->
+    <form name = "myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <input type="text" name="fname">
+        <input type="submit" value = "submit">
+    </form>
+    <script src="form validation.js"></script>
+</body>
+</html>
