@@ -1,0 +1,45 @@
+
+.container {
+     width: 80%;
+     margin: 10px auto;
+}
+  
+  .carousel{
+    border:2px solid #ccc;
+    height : 500px;
+    position: relative;
+    overflow:hidden;
+   
+  }
+  .slider{
+    height:100%;
+    display:flex;
+    width:500%;
+    border: 1px solid red;
+    transition : all 0.3s;
+    
+  }
+  .slider section {
+    flex-basis: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .controls.arrow{
+    position: relative;
+    cursor: pointer;
+  }
+  .arrow.left {
+    position:absolute;
+    left:10px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size:15px;
+  }
+  .arrow.right{
+    position:absolute;
+    right:10px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size:15px;
+  }
