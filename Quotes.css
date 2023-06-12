@@ -61,7 +61,7 @@ body {
   background-color:yellow;
   position:relative;
   align-items:center;
-  left:15%;
+  left:30%;
 }
 .image1{
   width: 100%;
@@ -88,3 +88,19 @@ body {
   height: 100%;
   object-fit: cover;
 } 
+p{
+  position:center;
+  font-family: 'Rubik', sans-serif;
+}
+p1{
+  position:center;
+  font-family: 'Rubik', sans-serif;
+  font-size:18px;
+  font-style:bolder;
+  left:30%
+}
+h1{
+  position:relative;
+  font-family: 'Rubik', sans-serif;
+  color:white;
+}
