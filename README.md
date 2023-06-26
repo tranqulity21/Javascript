@@ -1,3 +1,4 @@
+
 # Javascript
 I am showcasing my grasp on javascript concepts through miniprojects
 
@@ -19,3 +20,4 @@ I built a rock paper scissors game that keeps count of both the computer and pla
 1.Dom manipulation
 2.arrays
 3.if else if loop
+![rock paper scissors](https://github.com/tranqulity21/Javascript/assets/79315856/a8a30f69-23fc-43db-b0a4-025485d7379f)
